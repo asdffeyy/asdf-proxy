@@ -19,7 +19,7 @@ export function Homepage() {
   }
 
   return (
-    <div className="min-h-screen bg-[rgb(40,40,40)] flex flex-col items-center justify-center p-4 text-white">
+    <div className="min-h-screen bg-[rgb(20,20,20)] flex flex-col items-center justify-center p-4 text-white">
       <div className="max-w-6xl w-full bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl">
         <h1 className="text-4xl font-bold mb-6 text-center">asdfProxy</h1>
         <p className="text-xl mb-8 text-center">bruh</p>
