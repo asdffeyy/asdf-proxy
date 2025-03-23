@@ -21,9 +21,9 @@ export function Homepage() {
   return (
     <div className="min-h-screen bg-gradient-to-br from-purple-600 to-blue-600 flex flex-col items-center justify-center p-4 text-white">
       <div className="max-w-6xl w-full bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl">
-        <h1 className="text-4xl font-bold mb-6 text-center">Simple Discord Webhook Proxy</h1>
+        <h1 className="text-4xl font-bold mb-6 text-center">asdfProxy</h1>
         <p className="text-xl mb-8 text-center">
-          Seamlessly proxy Discord webhooks through Vercel, primarily for Roblox.
+          bruh
         </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
