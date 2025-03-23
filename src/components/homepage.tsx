@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from 'react'
 import { ArrowRight, Check, Github, Globe, Shield, Zap, Triangle } from 'lucide-react'
+import "@fontsource/montserrat";
 
 export function Homepage() {
   const [inputUrl, setInputUrl] = useState('')
@@ -19,10 +20,12 @@ export function Homepage() {
   }
 
   return (
-    <div className="min-h-screen bg-[rgb(20,20,20)] flex flex-col items-center justify-center p-4 text-white">
+    <div className="min-h-screen bg-[rgb(20,20,20)] flex flex-col items-center justify-center p-4 text-white font-[Montserrat]">
       <div className="max-w-6xl w-full bg-white/10 backdrop-blur-lg rounded-2xl p-8 shadow-2xl">
         <h1 className="text-4xl font-bold mb-6 text-center">asdfProxy</h1>
-        <p className="text-xl mb-8 text-center">bruh</p>
+        <p className="text-xl mb-8 text-center">
+          bruh
+        </p>
 
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8 mb-12">
           <div>
@@ -113,7 +116,7 @@ export function Homepage() {
       <footer className="mt-8 text-sm text-white/70 flex items-center justify-center">
         <span className="mr-1">Inspired by Lewisakura&apos;s </span>
         <a href="https://github.com/lewisakura/webhook-proxy" className="hover:underline mr-4">Webhook Proxy</a>
-        <span>Made with ❤️ by <a target="_blank" href="https://starvsk.dev">StarVSK</a></span>
+        <span>Made with ❤️ by <a target = "_blank" href="https://starvsk.dev">StarVSK</a></span>
       </footer>
     </div>
   )
