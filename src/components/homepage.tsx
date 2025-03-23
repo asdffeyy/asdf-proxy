@@ -81,8 +81,8 @@ export function Homepage() {
           />
           <Feature
             icon={<Shield className="w-8 h-8" />}
-            title="Complies with ToS"
-            description="Built to comply with Discord's terms of service by enforcing rate limits and implementing anti-abuse measures."
+            title="skibidi"
+            description="I ripped ts from the devforum lol credist to whoever starvsk is its really cool"
           />
           <Feature
             icon={<Check className="w-8 h-8" />}
